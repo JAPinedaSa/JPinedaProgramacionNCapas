@@ -106,6 +106,7 @@ namespace PLMVC.Controllers
         [HttpGet]
         public ActionResult Delete(int idAseguradora)
         {
+
             ML.Aseguradora aseguradora = new ML.Aseguradora();
             //aseguradora.IdAseguradora = idAseguradora;
             //ML.Result result = BL.Aseguradora.Delete(aseguradora);
