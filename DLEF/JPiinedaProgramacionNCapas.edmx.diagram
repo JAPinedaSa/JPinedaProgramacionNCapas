@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f4890284ce444616a8ef68b5bb6a1c41" Name="Diagram1">
+        <EntityTypeShape EntityType="UsuarioModel.Aseguradora" Width="1.5" PointX="5.25" PointY="6" />
+        <EntityTypeShape EntityType="UsuarioModel.Colonia" Width="1.5" PointX="3" PointY="7.875" />
+        <EntityTypeShape EntityType="UsuarioModel.Direccion" Width="1.5" PointX="5.25" PointY="2.5" />
+        <EntityTypeShape EntityType="UsuarioModel.Estado" Width="1.5" PointX="1.5" PointY="10.875" />
+        <EntityTypeShape EntityType="UsuarioModel.Municipio" Width="1.5" PointX="0.75" PointY="7.875" />
+        <EntityTypeShape EntityType="UsuarioModel.Pai" Width="1.5" PointX="1.5" PointY="14" />
+        <EntityTypeShape EntityType="UsuarioModel.Rol" Width="1.5" PointX="0.75" PointY="3" />
+        <EntityTypeShape EntityType="UsuarioModel.Usuario" Width="1.5" PointX="3" PointY="1.75" />
+        <AssociationConnector Association="UsuarioModel.FK__Asegurado__IdUsu__1ED998B2" />
+        <AssociationConnector Association="UsuarioModel.FK__Colonia__IdMunic__3F466844" />
+        <AssociationConnector Association="UsuarioModel.FK__Direccion__IdCol__4222D4EF" />
+        <AssociationConnector Association="UsuarioModel.FK__Direccion__IdUsu__4316F928" />
+        <AssociationConnector Association="UsuarioModel.FK__Estado__IdPais__398D8EEE" />
+        <AssociationConnector Association="UsuarioModel.FK__Municipio__IdEst__3C69FB99" />
+        <AssociationConnector Association="UsuarioModel.FK__Usuario__IdRol__173876EA" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
